@@ -9,7 +9,7 @@
 <!-- Fav Icon  -->
 <link rel="shortcut icon" href="images/favicon.png">
 <!-- Site Title  -->
-<title>Binstarter | Protocol built for cross-chain token insured pools</title>
+<title>DearDoge</title>
 <!-- Bundle and Base CSS -->
 <link rel="stylesheet" href="assets/css/vendor.bundle.css">
 <link rel="stylesheet" href="assets/css/style-binstarter.css" id="changeTheme">
@@ -17,7 +17,8 @@
 <link rel="stylesheet" href="assets/css/theme.css">
 <link rel="stylesheet" type="text/css" href="assets/css/Charts.css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/new.css"/>
-
+<!-- 导入字体 -->
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
 </head>
 
 
@@ -62,16 +63,14 @@
 										</ul>
 									</li>
 								</ul>
-							 <a href="https://binstarter.io/whitelist.html"   target="_self" class="btn btn-md btn-round btn-thin btn-outline btn-primary btn-auto no-change"><span class="pink">connect</span></a> 
+							 <a href="./assets/WhitePaper.pdf"   target="_self" class="btn btn-md btn-round btn-thin btn-outline btn-primary btn-auto no-change"><span class="pink">WHITEPAPER</span></a> 
 								</ul>
 							</nav>
 						</div><!-- .header-navbar @e -->
 					</div>                                                
 				</div>
 			</div><!-- .header-main @e -->
-
             <div class="banner banner-fs tc-light">
-
                 <div class="nk-block nk-block-header nk-block-sm my-auto">
                     <div class="container pt-5">
                         <div class="banner-caption text-center">
@@ -85,7 +84,7 @@ The developers and mods are ready to answer any questions you have.</p>
                             </div>
                             <div class="cpn-action">
                                 <ul class="btn-grp mx-auto">
-                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="https://bsr.binstarter.io/" class="btn btn-primary btn-round">Launchpad</a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="https://bsr.binstarter.io/" class="btn btn-primary btn-round">Launchp</a></li>
                                   <!--  <li class="animated" data-animate="fadeInUp" data-delay="1"><a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">Public Sale</a></li> -->
                                 </ul>
                             </div>
@@ -96,7 +95,7 @@ The developers and mods are ready to answer any questions you have.</p>
                     <div class="container container-xxl">
                         <div class="row gutter-vr-40px justify-content-between">
                             <div class="col-xxl-6 col-xl-5 col-lg-5">
-                                <div class="progress-wrap progress-wrap-point animated" data-animate="fadeInUp" data-delay="0.8">
+                               <!-- <div class="progress-wrap progress-wrap-point animated" data-animate="fadeInUp" data-delay="0.8">
                                     <ul class="progress-info progress-info-s2">
                                         <li>Raised -  <span>3,239,797 Tokens</span></li>
                                         <li class="text-right">Target - <span>6,739,797 Tokens</span></li>
@@ -107,7 +106,8 @@ The developers and mods are ready to answer any questions you have.</p>
                                         <div class="progress-point" data-point="55">Crowdsale</div>
                                         <div class="progress-point" data-point="85">Hard Cap</div>
                                     </div>
-                                </div>
+                                </div> -->
+								<canvas id="main" width="600px" height="200px"></canvas>
                             </div>
                             <div class="col-xxl-5 col-xl-6 col-lg-7 text-center text-sm-left">
                                 <div class="row justify-content-around gutter-vr-30px">
@@ -122,7 +122,13 @@ The developers and mods are ready to answer any questions you have.</p>
                                         <div class="status-countdown float-sm-right animated" data-animate="fadeInUp" data-delay="1">
                                             <h6 class="title title-xxs tc-default status-title ttu">Pre-sale start time</h6>
                                             <!-- <div class="countdown justify-content-center justify-content-sm-start countdown-s3 countdown-s3-alt" data-date="2021/08/04" data-min-text="Minutes" data-sec-text="Seconds"></div> -->
-                                        </div>
+											<div class="time1">
+												<span class="d">00</span>
+												<span class="h">00</span>
+												<span class="m">00</span>
+												<span class="s">00</span>
+											</div>
+										</div>
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +195,7 @@ The longer you hold, the more you earn!
 The developers and mods are ready to answer any questions you have.</p>
                                     <ul class="btn-grp gutter-vr-20px pdt-m">
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.6"><a href="#docs" class="menu-link btn btn-primary btn-round btn-lg"><span>White Paper</span> <em class="icon ti ti-arrow-down"></em></a></li>
-                                        <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a href="#ecosystems" class="menu-link btn btn-underline">See the Ecosystems</a></li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a href="#ecosystems" class="menu-link btn btn-underline">See the Stages</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -212,7 +218,7 @@ The developers and mods are ready to answer any questions you have.</p>
                 </div>
                 <div class="container container-xxl">
                     <div class="nk-block">
-                        <div class="row text-center justify-content-between align-items-lg-start" style="right: 50px;">
+                        <div class="row text-center justify-content-between align-items-lg-start">
                             <div class="col-lg-3 col-sm-6">
                                 <div class="feature feature-s6 feature-s6-1 animated" data-animate="fadeInUp" data-delay="0.3" style="width: 400px;">
                                     <div class="feature-text" >
@@ -308,7 +314,7 @@ The developers and mods are ready to answer any questions you have.</p>
                                                     <em class="icon icon-md icon-grd ikon ikon-bulb"></em>
                                                 </div>
                                                 <div class="feature-text">
-                                                    <p>⏰Pre-sale time: 1PM UTC on August 4, 2021 </p>
+                                                    <p>NO Pre-sale</p>
                                                 </div>
                                             </div>
                                             <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.4">
@@ -687,12 +693,12 @@ In the future, all Binance Chain currencies will establish transaction docking w
                                 </div>
                                 
                                 <ul class="social-links social-links-s2 justify-content-center animated" data-animate="fadeInUp" data-delay="0.6">
-                                    <li><a href="https://twitter.com/BinStarterio"><em class="fab fa-twitter"></em></a></li>
-                                    <li><a href="https://medium.com/@BinStarter"><em class="fab fa-medium-m"></em></a></li>
-                                    <li><a href="https://t.me/BinStarterOfficial"><em class="fab fa-telegram"></em></a></li>
+                                    <li><a href="twitter.com/DearDogeToken"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="t.me/DearDogeOfficial"><em class="fa fa-telegram"></em></a></li>
+                <!--                    <li><a href="https://t.me/BinStarterOfficial"><em class="fab fa-telegram"></em></a></li>
                                     <li><a href="https://www.youtube.com/watch?v=s39li_NNVbg"><em class="fab fa-youtube"></em></a></li>
                                     <li><a href="https://docs.binstarter.io/"><em class="fas fa-file-alt"></em></a></li>
-                                    <li><a href="https://github.com/BinStarter"><em class="fab fa-github"></em></a></li>
+                                    <li><a href="https://github.com/BinStarter"><em class="fab fa-github"></em></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -854,6 +860,8 @@ In the future, all Binance Chain currencies will establish transaction docking w
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.2/echarts.common.js"></script>
 	<script src="assets/js/charts_left.js"></script>
 	<script src="assets/js/charts_right.js"></script>
-	
+	<!-- 倒计时 -->
+	<script src="assets/js/countdown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/js/charts_top.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
