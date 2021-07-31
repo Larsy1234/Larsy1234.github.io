@@ -3001,7 +3001,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .breadcumb li a:hover:not([class]) { color: #f8aa38 !important; }
 
-.preloader { position: fixed !important; top: 0; left: 0; right: 0; bottom: 0; z-index: 10000; }
+.preloader { width:100vw;position: fixed !important; top: 0; left: 0; right: 0; bottom: 0; z-index: 10000; }
 
 .preloader:before, .preloader:after { position: absolute; left: 0; height: 51%; width: 100%; transition: all .6s ease; background: #fff; content: ''; }
 
@@ -3023,7 +3023,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .page-loaded .preloader.no-split:before, .page-loaded .preloader.no-split:after { transform: translate(0, 0); }
 
-.spinner { display: block; position: relative; left: 50%; top: 50%; width: 70px; height: 70px; margin: -35px 0 0 -35px; z-index: 1001; }
+.spinner { display: block; position: relative; top: calc(50% - 75px); width: 70px; height: 70px; margin: -35px 0 0 -35px; z-index: 1001; }
 
 .spinner-round { border-radius: 50%; border: 2px solid transparent; border-top-color: #f42f54; animation: spin 2s linear infinite; }
 
@@ -3033,7 +3033,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .spinner-round:after { top: 15px; left: 15px; right: 15px; bottom: 15px; border-top-color: #0f1932; animation: spin 1.5s linear infinite; }
 
-.spinner-alt { border-radius: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; }
+.spinner-alt { border-radius: 50%; width: 150px; height: 150px; margin: 0 auto; }
 
 .spinner-alt:after, .spinner-alt:before { content: ""; position: absolute; border-radius: 50%; top: 0; left: 0; right: 0; bottom: 0; }
 
