@@ -1,6 +1,6 @@
 setInterval(()=>{
 	var d1=Date.now();
-	var d2=new Date('2021/8/4 14:00:00');
+	var d2=new Date('2021/8/4 21:00:00');
 	var d3=(d2-d1);
 	var d= document.querySelector('.time1 .d').innerHTML=parseInt(d3/1000/60/60/24,10) + ' :'
 	var h= document.querySelector('.time1 .h').innerHTML=parseInt(d3/1000/60/60%24,10) + ' :'
